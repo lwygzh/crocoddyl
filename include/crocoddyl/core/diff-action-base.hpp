@@ -36,8 +36,8 @@ namespace crocoddyl {
  * version of an action model, i.e., \f[ \begin{aligned}
  * &\dot{\mathbf{v}} = \mathbf{f}(\mathbf{q}, \mathbf{v}, \mathbf{u}),
  * &\textrm{(dynamics)}\\
- * &\ell(\mathbf{q}, \mathbf{v},\mathbf{u}) = \int_0^{\delta t}
- * a(\mathbf{r}(\mathbf{q}, \mathbf{v},\mathbf{u}))\,dt,
+ * &\ell(\mathbf{q}, \mathbf{v},\mathbf{u}) =
+ * a(\mathbf{r}(\mathbf{q}, \mathbf{v},\mathbf{u})),
  * &\textrm{(cost)}\\
  * &\mathbf{g}(\mathbf{q}, \mathbf{v},\mathbf{u})<\mathbf{0},
  * &\textrm{(inequality constraint)}\\
